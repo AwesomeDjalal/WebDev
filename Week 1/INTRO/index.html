@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My First Webpage</title>
-    </head>
-    <body>
-        <h1>Welcome to my page</h1>
-        <h2>Join me on this journey</h2>
-        <p>This is a paragraph of text.</p>
-    </body>
-    <a href="https://www.example.com"></a>
-    <img src="logo.png" alt="CMRG logo">
+  <head>
+    <title>My First Webpage</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is a beginner web page" />
+    <meta name="keyword" content="beginner, html, webpage, website" />
+    <meta name="author" content="Jallal - PLP" />
+  </head>
+  <body>
+    <!-- Headings -->
+    <h1>Welcome to my page</h1>
+    <h2>Join me on this journey</h2>
+    <h3>Join me on this journey</h3>
+    <h4>Join me on this journey</h4>
+    <h5>Join me on this journey</h5>
+    <h6>Join me on this journey</h6>
 
-    <u1>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-</u1>
+    <!-- Paragraphs -->
+    <p>This is a paragraph of text.</p>
 
-<ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ol>
+    <!-- link -->
+    <a href="https://google.com"> Click here to visit google page. </a>
+    <br />
+    <!-- Internal Image -->
+    <img
+      src="image.jpg"
+      alt="This is a lounge set up image"
+      width="500"
+      height="500"
+    />
+    <br />
+    <!-- External Image -->
+    <img
+      src="https://images.pexels.com/photos/9120417/pexels-photo-9120417.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+      alt="This is a lounge set up image"
+      width="500"
+      height="500"
+    />
 
-    <form action="/submit-form" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-    
-    <label for="email">Email</label>
-    <input  type="email" id="email" name="email">
-    
-    <button type="submit">Submit</button>
- </form>
-   
+    <!-- Ordered List -->
+    <ol type="i">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <!-- Unordered List -->
+    <ul type="square">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
 
+    <!-- Forms -->
+    <form action="/location" method="GET/POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" />
+      <br />
+      <label for="password">password:</label>
+      <input type="password" id="password" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
